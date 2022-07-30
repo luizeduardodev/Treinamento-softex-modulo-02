@@ -20,7 +20,7 @@
 
 import pandas as pd
 
-notas = pd.read_excel(r"C:\Users\Eduardo\Desktop\python\exercicio-softex-site\notas_aluno.xlsx")
+notas = pd.read_excel(r"caminho do arquivo\notas_aluno.xlsx")
 
 media = (notas["nota1"] + notas["nota2"]) / 2
 
@@ -56,4 +56,4 @@ print("Maior média: " + str(maiorMedia))
 print("")
 print(notas)
 
-notas.to_excel(r"C:\Users\Eduardo\Desktop\python\exercicio-softex-site\alunos_situacao.xlsx")
+notas.to_excel(r"caminho do arquivo\alunos_situacao.xlsx")
